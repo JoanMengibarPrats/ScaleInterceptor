@@ -18,10 +18,13 @@ reasoning behind every byte of the frame.
 
 ## Quick start
 
-```bash
+``` bash
 pip install bleak
 python scale_interceptor.py            # guided discovery: step on the scale to find its MAC
 python scale_interceptor.py --help
 python scale_interceptor.py --mac 70:87:9E:35:9D:F0    # log weighings to mi_peso.csv
 More reverse engineering
+
+```
+
 - Firmware Extraction guide (https://joanmengibarprats.com/blog/firmware_extraction)
